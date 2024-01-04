@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@500;700&display=swap");
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --body-18: Lexend;
+
+  /* font sizes */
+  --font-size-xl: 20px;
+  --body-18-size: 18px;
+  --h3-24-size: 24px;
+  --font-size-mini: 15px;
+  --font-size-11xl: 30px;
+  --font-size-mid: 17px;
+  --font-size-6xl: 25px;
+  --font-size-21xl: 40px;
+  --font-size-8xl-2: 27.2px;
+  --font-size-17xl-4: 36.4px;
+
+  /* Colors */
+  --color-gray-100: #868686;
+  --color-gray-200: #7e7e7e;
+  --dark-mode-secondary-tile: #262629;
+  --regular: #1f1f1f;
+  --color-gray-300: #1a1a1a;
+  --light-mode-typography-header: #141414;
+  --color-gray-400: rgba(0, 0, 0, 0.3);
+  --color-black: #000;
+  --basic-white: #fff;
+  --dark-mode-typography-header: #f5f5f5;
+  --color-whitesmoke-100: #eee;
+  --dark-mode-typography-body: #ebebeb;
+  --light-mode-primary-blue: #0047ff;
+  --color-silver-100: rgba(192, 192, 192, 0.35);
+  --color-dimgray-100: #6e6e6e;
+  --color-dimgray-200: #636060;
+  --color-dimgray-300: #5d5d5d;
+  --color-darkkhaki: #b6c771;
+  --color-gainsboro-100: #dad8d8;
+  --color-forestgreen: #54b034;
+  --color-darkslategray-100: #484848;
+  --primary-color: #fe724c;
+  --color-coral-100: #d25b36;
+  --color-gold: #ffc529;
+  --sub-color: #9796a1;
+  --color-tomato: #c93602;
+
+  /* Gaps */
+  --gap-11xs: 2px;
+  --gap-3xs: 10px;
+  --gap-xl: 20px;
+  --gap-11xl: 30px;
+  --gap-sm: 14px;
+  --gap-31xl: 50px;
+
+  /* Paddings */
+  --padding-41xl: 60px;
+  --padding-xl: 20px;
+  --padding-smi: 13px;
+  --padding-3xs: 10px;
+  --padding-xs: 12px;
+  --padding-11xl: 30px;
+  --padding-31xl: 50px;
+  --padding-mini: 15px;
+  --padding-6xl: 25px;
+  --padding-sm: 14px;
+  --padding-36xl: 55px;
+  --padding-16xl: 35px;
+  --padding-81xl: 100px;
+  --padding-3xl: 22px;
+
+  /* Border radiuses */
+  --br-31xl: 50px;
+  --br-9xs: 4px;
+  --br-7xs: 6px;
+  --br-61xl: 80px;
+  --br-3xs: 10px;
+  --br-xl: 20px;
+  --br-81xl: 100px;
+  --br-11xl: 30px;
+  --br-9xl-5: 28.5px;
+
+  /* Effects */
+  --basic: 0px 1px 1px rgba(0, 14, 51, 0.05);
+  --darkmode-shadow: 0px 10px 40px rgba(122, 129, 190, 0.16);
+  --last: 15px 15px 30px rgba(211, 209, 216, 0.25);
+}
+
+body {
+  background: #2b2b2b;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+
+#app {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
